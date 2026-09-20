@@ -2,6 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        /*
         int intOperandA = 1;
         int intOperandB = 2;
         int intSum = 3;
@@ -38,5 +39,53 @@ public class Main {
         System.out.println("The Difference using doubles of " + doubleOperandB + " " + doubleOperandA + " is " + doubleDifference);
         System.out.println("The Product using doubles of " + doubleOperandA + " " + doubleOperandB + " is " + doubleProduct);
         System.out.println("The Quotient using doubles of " + doubleOperandB + " " + doubleOperandA + " is " + doubleQuotient);
+        */
+
+
+        /*
+        double inputPrice = 22.49;
+        double tax = 0.05;
+        double calcTax = 0.0;
+
+        calcTax = inputPrice * tax;
+
+        System.out.println("The price of your item is: " + inputPrice + " and the tax on that is: " + calcTax);
+         */
+
+
+        /*
+        double winterCost = 120.45;
+        double springCost = 150.99;
+        double summerCost = 220.60;
+        double fallCost = 70.25;
+        double totalCost = 0;
+
+        totalCost = winterCost + springCost + summerCost + fallCost;
+
+        System.out.println("The winter cost is: " + winterCost + ", the spring cost is: " + springCost + ", the summer cost is: " + summerCost + ", the fall cost is: " + fallCost + ", and the total cost is: " + totalCost);
+         */
+
+
+        /*
+        int creditCardBalance = 5000;
+        double interestRate = 0.17;
+        double interestDue = 0;
+
+        interestDue = creditCardBalance * interestRate;
+
+        System.out.println("The interest due after One month is: " + interestDue);
+
+        interestDue += creditCardBalance * interestRate;
+
+        System.out.println("The interest due after Two months is: " + interestDue);
+         */
+
+
+        int evenOrOddNum = 3245987;
+        int moduloResult = 2;
+
+        moduloResult = evenOrOddNum % 2;
+
+        System.out.println("The inputed number is: " + evenOrOddNum + ", if the result is 0 it is Even, if the result is 1 it is Odd.  The Result is: " + moduloResult);
     }
 }
